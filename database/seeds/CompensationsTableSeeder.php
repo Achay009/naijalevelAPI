@@ -23,7 +23,10 @@ class CompensationsTableSeeder extends Seeder
             'year_at_comp' => 0,
             'company_id' => 1,
             'title_id'=> 1,
+            'title'=> 'Software Developer',
             'level_id'=> 1,
+            'level' => 'Junior',
+            'approved'=> 1,
             'total'=>1820000,
             'created_at'=> Carbon::now(),
             'updated_at' => Carbon::now()
@@ -39,7 +42,10 @@ class CompensationsTableSeeder extends Seeder
             'year_at_comp' => 0,
             'company_id' => 2,
             'title_id'=> 1,
+            'title'=> 'Software Developer',
             'level_id'=> 2,
+            'level' => 'Intermediate',
+            'approved'=> 1,
             'total'=> 3630000,
             'created_at'=> Carbon::now(),
             'updated_at' => Carbon::now()
@@ -55,7 +61,10 @@ class CompensationsTableSeeder extends Seeder
             'year_at_comp' => 0,
             'company_id' => 1,
             'title_id'=> 1,
+            'title'=> 'Software Developer',
             'level_id'=> 2,
+            'level' => 'Intermediate',
+            'approved'=> 1,
             'total'=> 2420000,
             'created_at'=> Carbon::now(),
             'updated_at' => Carbon::now()
@@ -71,7 +80,10 @@ class CompensationsTableSeeder extends Seeder
             'year_at_comp' => 0,
             'company_id' => 2,
             'title_id'=> 1,
+            'title'=> 'Software Developer',
             'level_id'=> 3,
+            'level' => 'Senior',
+            'approved'=> 1,
             'total'=> 6050000,
             'created_at'=> Carbon::now(),
             'updated_at' => Carbon::now()

@@ -17,7 +17,9 @@ class CreateCompensationsTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('company_id');
             $table->unsignedBigInteger('title_id');
+            $table->string('title');
             $table->unsignedBigInteger('level_id');
+            $table->string('level');
             $table->string('location');
             $table->integer('year_of_exp');
             $table->integer('year_at_comp');
@@ -25,6 +27,7 @@ class CreateCompensationsTable extends Migration
             $table->decimal('monthly_salary',15)->default(0.00);
             $table->string('bonus');
             $table->string('gender');
+            $table->integer('approved');
             $table->string('certification');
             $table->decimal('total',15)->default(0.00);
             $table->timestamps();
