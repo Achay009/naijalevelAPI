@@ -8,7 +8,7 @@ class Compensation extends Model
 {
     protected $table = 'compensations';
 
-    protected $hidden = ['created_at','updated_at','deleted_at','approved'];
+    protected $hidden = ['created_at','deleted_at','approved'];
 
     public function level(){
         return $this->belongsTo('App\Level');

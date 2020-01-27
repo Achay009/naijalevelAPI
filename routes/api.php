@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +14,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/index','HomeController@index');
+Route::get('index','HomeController@index');

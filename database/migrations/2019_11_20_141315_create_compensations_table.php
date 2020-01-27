@@ -16,6 +16,7 @@ class CreateCompensationsTable extends Migration
         Schema::create('compensations', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('company_id');
+            $table->string('company');
             $table->unsignedBigInteger('title_id');
             $table->string('title');
             $table->unsignedBigInteger('level_id');
