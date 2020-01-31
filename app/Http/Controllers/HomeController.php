@@ -11,7 +11,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-
         try{
             $titles_with_compensations = Title::with('compensations')->get();
             $recent_compensations = Compensation::latest('created_at')->take(5)->get();
